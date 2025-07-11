@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Flex_command */
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexBetweenColumn {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: column;
+    text-indent: 20%;
+}
+
+.flexSpaceAround {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/* .noticeFlexBanner { */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+/* } */
+
+/* Padding_Margin */
+
+.paddingTop {
+    padding-top: 40px;
+}
+
+.marginComment {
+       
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.noticeSign {
+    margin-bottom: 15px;
+}
+
+/* Font */
+
+h1 {
+    font-size: 50px;
+}
+
+.letterSpacing {
+    letter-spacing: 0.3cap;
+}
+
+h2 {
+    text-align: center;
+    padding: 3%;
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 30px;
+    padding-top: 40%;
+    letter-spacing: 0.3cap;
+}
+
+.whiteFont {
+    color: white;
+}
+
+.footerTextFormat {
+    padding-left: 10%;
+}
+
+.paddedBoldText {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+/* background_color */
+
+.productDescriptionContainer {
+    background-color: rgb(245, 245, 239);
+}
+
+.blackBackground {
+    background-color: black;
+}
+
+/* Element_sizing */
+
+.headerContainer {
+    height: 60vh;
+}
+
+.productDescriptionContainer > div {
+    width: 40vh;
+    padding: 6% 6% 6% 6%;
+}
+
+.photoBanner {
+    height: 5vh;
+    padding: 4% 4% 4% 4%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+.widthMiddle {
+    width: 50%;
+}
